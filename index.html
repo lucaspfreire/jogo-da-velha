@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Projeto Jogo da velha</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="tittle">Jogo da Velha</h1>
+        <div class="divResultado">
+            <p id="resultado"></p>
+        </div>
+        <div class="all_buttons">
+            <div class="button_line">
+                <button class="button_game" id="button1" type="button" onclick="acaoBotao(this)"></button>
+                <button class="button_game" id="button2" type="button" onclick="acaoBotao(this)"></button>
+                <button class="button_game" id="button3" type="button" onclick="acaoBotao(this)"></button>
+            </div>
+            <BR></BR>
+            <div class="button_line">
+                <button class="button_game" id="button4" type="button" onclick="acaoBotao(this)"></button>
+                <button class="button_game" id="button5" type="button" onclick="acaoBotao(this)"></button>
+                <button class="button_game" id="button6" type="button" onclick="acaoBotao(this)"></button>
+            </div>
+            <BR></BR>
+            <div class="button_line">
+                <button class="button_game" id="button7" type="button" onclick="acaoBotao(this)"></button>
+                <button class="button_game" id="button8" type="button" onclick="acaoBotao(this)"></button>
+                <button class="button_game" id="button9" type="button" onclick="acaoBotao(this)"></button>
+            </div>  
+        </div>
+        <button id="button_newgame" type="button" onclick="newGame()">Novo jogo</button>     
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
